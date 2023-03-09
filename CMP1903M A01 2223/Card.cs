@@ -23,7 +23,7 @@ namespace CMP1903M_A01_2223
         }
 
         //returns the card made
-        public override string to_string()
+        public override string ToString()
         {
             return (values)Value + " of " + (suits)Suit;
         }
